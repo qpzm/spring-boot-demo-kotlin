@@ -7,7 +7,7 @@ import java.util.*
 import javax.persistence.*
 
 @Entity
-@Table(name = "channels")
+@Table(name = "channel") // class 이름과 같으면 생략 가능
 data class Channel(
     @Id
     @GeneratedValue
