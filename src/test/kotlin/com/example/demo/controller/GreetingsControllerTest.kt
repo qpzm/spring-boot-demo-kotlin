@@ -16,6 +16,7 @@ internal class GreetingsControllerTest(
         @Autowired
         val mockMvc: MockMvc
 ) {
+
     @Test
     fun greetingTest() {
         mockMvc.perform(get("/")
